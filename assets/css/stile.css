@@ -20,10 +20,14 @@ hr {
   display: none;
 }
 
+i {
+  display: inline-block;
+}
+
 /* HEADER */
 
 header {
-  background-color: #0088aa;
+  background: linear-gradient(0, rgb(47, 107, 133), rgb(69, 155, 191));
   text-align: center;
   width: 70%;
   margin: 2rem;
@@ -212,10 +216,26 @@ aside > div {
 
 a + p {
   margin-bottom: 0;
+  font-size: small;
 }
 .data {
   text-align: right;
   padding: 1rem;
   font-size: x-small;
 }
-/* FOOTER */ ;
+/* FOOTER */
+
+footer {
+  background-color: #065268;
+  text-align: center;
+  width: 70%;
+  padding: 1rem;
+  margin: auto;
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 0.78rem;
+  padding-bottom: 1.5rem;
+}
+footer address {
+  line-height: 1.2rem;
+}
